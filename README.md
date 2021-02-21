@@ -32,7 +32,7 @@ const { isOperator,getOperator,isValidKenyanNumber, operators } = require('kenya
 isOperator("+254771235260",operators.TELKOM)
 	.then(({ status, error }) => {
 		if (status){
-			console.log("Valid safaricom number");
+			console.log("Valid Telkom Kenya Phone Number");
 		}else{
 			console.log(error);
 		}
