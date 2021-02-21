@@ -1,6 +1,6 @@
 {
   "name": "kenyan-phone-numbers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a simple module which includes functionalities such as -->  getting mobile phone number operator, check validity of the phone number and also check against a desired mobile phone operator e.g SAFARICOM, TELKOM, AIRTEL, EQUITEL e.t.c",
   "main": "index.js",
   "scripts": {
