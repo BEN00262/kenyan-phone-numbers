@@ -1,10 +1,14 @@
 {
   "name": "kenyan-phone-numbers",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple module which includes functionalities such as -->  getting mobile phone number operator, check validity of the phone number and also check against a desired mobile phone operator e.g SAFARICOM, TELKOM, AIRTEL, EQUITEL e.t.c",
   "main": "index.js",
   "scripts": {
     "test":"jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BEN00262/kenyan-phone-numbers.git"
   },
   "keywords": ["mobile","verifier","safaricom","telkom","airtel","kenya"],
   "author": "John Kerama <johnnesta2018@gmail.com>",

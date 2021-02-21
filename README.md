@@ -7,6 +7,25 @@
 #### can be used along anything e.g. expressjs, koajs e.t.c
 
 ```javascript
+// supported operators include
+SAFARICOM
+TELKOM
+AIRTEL 
+SEMA_MOBILE
+EQUITEL
+EFERIO 
+FAIBA_4G
+HOMELANDS_MEDIA
+```
+```javascript
+isOperator("< phone number formatted into +254???? >",operator) => Promise
+getOperator("< phone number formatted into +254???? >") => Promise
+isValidKenyanNumber("< phone number formatted into +254???? >") => Promise
+
+// for examples continue reading
+```
+
+```javascript
 const { isOperator,getOperator,isValidKenyanNumber, operators } = require('kenyan-phone-numbers');
 
 // checking if the number falls under the given operator
