@@ -1,0 +1,18 @@
+{
+  "name": "kenyan-phone-numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"jasmine"
+  },
+  "keywords": ["mobile","verifier","safaricom","telkom","airtel","kenya"],
+  "author": "John Kerama <johnnesta2018@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.4"
+  }
+}
