@@ -10,7 +10,7 @@
 const { isOperator,getOperator,isValidKenyanNumber, operators } = require('kenyan-phone-numbers');
 
 // checking if the number falls under the given operator
-isOperator("+254771245240",operators.SAFARICOM)
+isOperator("+254771235260",operators.TELKOM)
 	.then(({ status, error }) => {
 		if (status){
 			console.log("Valid safaricom number");
@@ -21,7 +21,7 @@ isOperator("+254771245240",operators.SAFARICOM)
 	.catch(console.log)
 
 // getting the operator
-getOperator("+254771245240")
+getOperator("+254771235260")
 	.then(({ status, operator, error }) => {
 		if (status){
 			console.log(operator);
@@ -32,7 +32,7 @@ getOperator("+254771245240")
 	.catch(console.log)
 
 // checking if its a valid Kenyan Mobile Phone Number
-isValidKenyanNumber("+254771245240")
+isValidKenyanNumber("+254771235260")
 	.then(({ status, error }) => {
 		if (status){
 			console.log("Valid Phone Number");
